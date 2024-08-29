@@ -1,7 +1,10 @@
 body {
     margin: auto 0;
 }
-
+ 
+li {
+    list-style: none;
+}
 .zone {
     cursor:pointer;
     color:#FFF;

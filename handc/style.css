@@ -57,10 +57,10 @@ a {
 }
 .hire_us:hover {
     background-color: black;
-    border-radius: 0px;
+    border-radius: 50px;
     color: white;
     background: #f32121;
-    box-shadow: 0 0 10px #f32121e1, 0 0 10px #f32121e1, 0 0 10px #f32121e1;
+    box-shadow: 0 0 10px #f32121e1, 0 0 10px #f36421ea, 0 0 10px #f35221e1;
     transition: all 400ms ease;
 }
 

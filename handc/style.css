@@ -1,11 +1,47 @@
 body {
     margin: auto 0;
 }
-
-li {
-    list-style: none;
+a {
+    color: #f5f5f6;
+    text-decoration: none;
 }
+
+.main_nav_container {
+    display: flex;
+}
+
+.sub_nav_container {
+    display: flex;
+    gap: 150px;
+    margin: 0px 140px 0px;
+}
+.logo {
+    height: 40px;
+    width: 40px;
+    background-image: url(/images/bpsicon.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav_list {
+    gap: 35px;
+    margin: 11px 0px 11px;
+    display: flex;
+    font-size: 0.55em;
+}
+
+.rightsidebg {
+    height: 470px;
+    width: 420px;
+    background-color: red;
+    position: relative;
+    float: right;
+    margin-top: -44px;
+    margin-right: -1px;
+}
+
 .zone {
+    margin: 0px 0px 0px;
     cursor:pointer;
     color:#FFF;
     font-size:2em;
@@ -13,42 +49,35 @@ li {
     border:1px solid #bbb;
     transition: all 0.3s linear;
 }
-
 .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
-
 .sticky {
-    position: fixed;
     top: 0;
-    width: 100%;
 }
-.main-nav {
-    display: flex;
-    list-style: none;
-    font-size: 0.7em;
-    margin: 0;
-}
-
 .push {
     margin-left: auto;
 }
 
-li {
-    padding: 20px;
+
+.section_one_main_container {
+    margin-top: 90px;
+    margin-left: 143px;
+    display: flex;
+}
+.sticker_background {
+    height: 470px;
+    width: 420px;
+    background-color: red;
+    position: relative;
+    float: right;
+    margin-top: -135px;
+    margin-left: 248px;
 }
 
-a {
-    color: #f5f5f6;
-    text-decoration: none;
-}
-
-footer {
-    text-align: center;
-}
 
 .yellow{
     background: #F3AAAA; /* Old browsers */
@@ -58,7 +87,9 @@ footer {
     background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
     background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+    bottom: 0px;
 }
+
 
 .blue{
     background: #7abcff; /* Old browsers */
